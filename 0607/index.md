@@ -44,3 +44,9 @@
 2）若此时栈为空，则直接返回false
 
 3）若不为对应的左半边括号返回false
+
+[代码实现](https://github.com/FreemenL/daily-algorithm/blob/master/0607/index.js)
+
+### 扩展 
+<hr/>
+如果让你检查XML标签是否闭合如何检查， 更进一步如果要你实现一个简单的XML的解析器，应该怎么实现？
