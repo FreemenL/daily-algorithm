@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		const removeDuplicates = (nums) =>{
+			let slowP = 0;
+			// 慢指针
+			let length = nums.length;
+			//快指针
+			for( let fastP = 0; fastP<length; fastP++){
+				// 如果不等慢指针加一
+				if(nums[fastP]!==nums[slowP]){
+					slowP++;
+					nums[slowP] = nums[fastP];
+				}
+			}
+			
+			//更新length
+			let resLength = slowP+1
+			nums.length = resLength;
+			return resLength;
+		}
+		
+		console.log(removeDuplicates([1,1,2,2,2,3,4,5,6]));
+
+	</script>
+</body>
+</html>
