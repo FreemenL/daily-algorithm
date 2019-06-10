@@ -12,3 +12,5 @@
 * [0608 数组去重 不创建新的数组 ](https://github.com/FreemenL/daily-algorithm/blob/master/0608/index.md)
 
 * [0609 给定两个排序的整数数组nums1和nums2，将nums2合并为nums1作为一个排序的数组](https://github.com/FreemenL/daily-algorithm/blob/master/0609/index.md)
+
+* [0610 给定一个二叉树,找到它的最大深度](https://github.com/FreemenL/daily-algorithm/blob/master/0610/index.md)

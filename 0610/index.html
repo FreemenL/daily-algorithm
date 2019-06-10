@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	// 非递归的方式 记录null 出现的次数
+	const maxDepth = (root) => {
+	if(!root) return 0;
+	if(!root.left && !root.right) return 1;
+
+	let depth = 1;
+	let queue = [root,null];
+	let current = root;
+
+	while((current=queue.shift())!==undefined){
+		if(current===null){
+		if( queue.length === 0 ) return depth;
+		depth++;
+		queue.push(null);
+		continue;
+		}
+		let left = current.left;
+		let right = current.right;
+		if(left) queue.push(left);
+		if(right) queue.push(right);
+	}
+	return depth;
+	}
+
+	const dep = maxDepth({
+	current:2,
+	left:1,
+	right:{
+		current:3,
+		left:4,
+		right:5
+	}
+	})
+	console.log(dep);
+	</script>
+</body>
+</html>
