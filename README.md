@@ -16,3 +16,6 @@
 * [0610 给定一个二叉树,找到它的最大深度](https://github.com/FreemenL/daily-algorithm/blob/master/0610/index.md)
 
 * [0611 获取最大利润(低点买入，高点卖出)](https://github.com/FreemenL/daily-algorithm/blob/master/0611/index.md)
+
+
+* [0612 最佳买卖时机II ](https://github.com/FreemenL/daily-algorithm/blob/master/0612/index.md)
